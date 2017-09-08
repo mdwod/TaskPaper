@@ -1,6 +1,6 @@
 # TaskPaper Theme
 
-This is a simple and clean theme for [TaskPaper 3.5](https://www.taskpaper.com). TaskPaper is a simple plaintext to-do list that can also be used as a note editor.
+This is a simple and clean theme for [TaskPaper](https://www.taskpaper.com). TaskPaper is a simple plaintext to-do list that can also be used as a note editor.
 
 ![Logo](screenshot.png "Logo")
 
