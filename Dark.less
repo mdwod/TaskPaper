@@ -1,0 +1,102 @@
+// BASIC UI
+
+editor {
+  /* Guideline */
+  guide-line-color: fade(RGBA(136, 150, 160, 1.00), 15%);
+
+  /* Editor Background */
+  background-color: RGBA(40, 44, 52, 1.00);
+
+  /* Editor Text */
+  color: fade(RGBA(176, 204, 246, 1.00), 60%);
+
+  /* Highlighted Text Color */
+  //selection-color: RGBA(100, 160, 246, 0.2);
+  selected-color: RGBA(184, 51, 22, 1.00);
+}
+
+// TAGS
+
+/* @done */
+item[data-done] {
+  > run[content] {
+    text-strikethrough-color: RGBA(115, 195, 143, 1.00);
+    color: fade(RGBA(115, 195, 143, 1.00), 90%);
+  }
+  > run[tag] {
+    color: fade(RGBA(115, 195, 143, 1.00), 60%);
+  }
+}
+
+/* @important */
+item[data-important] {
+  > run[content] {
+    text-strikethrough-color: RGBA(184, 51, 22, 1.00);
+    color: fade(RGBA(184, 51, 22, 1.00), 90%);
+  }
+  > run[tag] {
+    color: fade(RGBA(184, 51, 22, 1.00), 60%);
+  }
+}
+
+/* @overdue */
+item[data-overdue] {
+  > run[content] {
+    text-strikethrough-color: RGBA(184, 51, 22, 1.00);
+    color: fade(RGBA(184, 51, 22, 1.00), 90%);
+    font-weight: bold;
+  }
+  > run[tag] {
+    color: fade(RGBA(184, 51, 22, 1.00), 60%);
+  }
+}
+
+/* @today */
+item[data-today] {
+  > run[content] {
+    text-strikethrough-color: RGBA(217, 186, 67, 1.00);
+    color: fade(RGBA(217, 186, 67, 1.00), 90%);
+  }
+  > run[tag] {
+    color: fade(RGBA(217, 186, 67, 1.00), 60%);
+  }
+}
+
+// HANDLES
+
+/* Level 1 Header */
+item[depth=1][data-type=project] {
+  handle-color: none;
+  handle-border-color: RGBA(136, 150, 160, 1.00);
+}
+
+/* Level 2 Header  */
+item[depth=2][data-type=project] {
+  handle-color: none;
+  handle-border-color: RGBA(136, 150, 160, 1.00);
+}
+
+/* Level 3 Header  */
+item[depth=3][data-type=project] {
+  handle-color: none;
+  handle-border-color: RGBA(136, 150, 160, 1.00);
+}
+
+/* Level 4 Header  */
+item[depth=4][data-type=project] {
+  handle-color: none;
+  handle-border-color: RGBA(136, 150, 160, 1.00);
+}
+
+// MISC
+
+/* Link Color */
+run[link] {
+  color: RGBA(171, 178, 190, 1.00);
+}
+
+/* Notes Formatting */
+item[data-type="note"] {
+  font-style: normal;
+  color: RGBA(92, 99, 111, 1.00);
+}
