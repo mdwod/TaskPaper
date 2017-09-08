@@ -1,8 +1,8 @@
 # TaskPaper Theme
 
-![Logo](screenshot.png "Logo")
-
 This is a simple and clean theme for [TaskPaper 3.5](https://www.taskpaper.com). TaskPaper is a simple plaintext to-do list that can also be used as a note editor.
+
+![Logo](screenshot.png "Logo")
 
 ## Usage
 
@@ -15,11 +15,11 @@ This is a simple and clean theme for [TaskPaper 3.5](https://www.taskpaper.com).
 
 You can change the theme as much as you want, the documentation of TaskPaper is available at [www.guide.taskpaper.com](https://guide.taskpaper.com/getting-started/) and allows a lot of customisations. Since I keep the setup as simple as possible, I have decided on three tags that can be used.
 
-| Tag | Description |
-| --- | --- |
-| `@today` | Indicates tasks that I have to work on today. |
-| `@important` | Important tasks allows a little bit of priorisation. |
-| `@done` | As soon as a task is done. Also includes the date in YYYY-MM-DD format. |
+| Tag |
+| --- |
+| `@today` |
+| `@important` |
+| `@done` |
 
 In order to add new tags, open the Dark.less file in an editor and add the following lines. Replace the **tag** in `item[data-tag]` to the one you want to create, change the color and save the file.
 
